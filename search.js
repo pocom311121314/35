@@ -445,6 +445,7 @@ for (let i of products.data) {
   //purchase.setAttribute("href", i.purchase);
   //purchase.innerText = "BUY NOW" ;
   //container.appendChild(purchase);
+  // Here let means open and appendChild() means close
   let purchase = document.createElement("a");
   purchase.setAttribute("href", i.purchase);
   purchase.innerText = "" ;
