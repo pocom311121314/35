@@ -13,7 +13,7 @@ hr.dashed {
   border-top: 1px dashed #ffffff;
 }
 .wrapper {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   
 }
@@ -73,18 +73,15 @@ hr.dashed {
     padding: 0px 20px;
 }
 
-/*topCategoriesFrom*/
 
-.Product_container_You{
-    min-height: 500px;
-    /* background-color: #ccc; */
-}
+
+
 
 .product_category_display{
     /* background-color: green; */
-    
+    justify-content: center;
     display: grid;
-    grid-template-columns: auto auto auto auto  ;
+    grid-template-columns: auto auto auto auto auto  ;
     grid-column-gap: 0.5em;
     grid-row-gap: 1.5em;
     padding: 2em 0;
@@ -92,7 +89,7 @@ hr.dashed {
 
 .productCard{
     max-width: 210px;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #d2d2d2;
