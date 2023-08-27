@@ -57,9 +57,11 @@ function renderProductData(){
         ProductData.forEach(el => {
             filterDataHTML += `
             <div class="productCard" onclick="ClickProduct(${el.id})">
+            
                 <div class="product_image">
                   <a href= ${el.purchase} ><img src="./${el.image}" style="width:200px;height:180px;" ></a>
                 </div>
+                <h6 class="product_name"><span>₹</span><span>${el.id}</span></h6>
                 <h5 class="product_name">${el.title}</h5>
                 
                 <p class="product_price"><span>₹</span><span>${el.price}</span></p>
