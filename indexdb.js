@@ -1,7 +1,7 @@
 export default[
     {
         id : "1",
-        title : "BOAT AIRPODS PRO (BLACK)",
+        title : "BOATrg AIRPODS PRO (BLACK)",
         category: "HEADPHONE",
         price : "299",
         image : "static/01.webp",
