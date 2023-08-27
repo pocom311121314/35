@@ -83,7 +83,7 @@ hr.dashed {
     /* background-color: green; */
     
     display: grid;
-    grid-template-columns: auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto  ;
     grid-column-gap: 0.5em;
     grid-row-gap: 1.5em;
     padding: 2em 0;
