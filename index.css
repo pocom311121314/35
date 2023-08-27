@@ -13,8 +13,9 @@ hr.dashed {
   border-top: 1px dashed #ffffff;
 }
 .wrapper {
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
+  
 }
 
 /**********************lowest price*************************/
