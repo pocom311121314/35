@@ -417,6 +417,7 @@ for (let i of products.data) {
   let image = document.createElement("img");
   image.setAttribute("src", i.image);
   imgContainer.appendChild(image);
+
   card.appendChild(imgContainer);
   //container
   let container = document.createElement("div");
@@ -426,7 +427,7 @@ for (let i of products.data) {
   id.innerText = "# " + i.id;
   container.appendChild(id);
   //product title
-  let title = document.createElement("h5");
+  let title = document.createElement("h4");
   title.classList.add("product-title");
   title.innerText = i.title.toUpperCase();
   container.appendChild(title);
@@ -440,10 +441,21 @@ for (let i of products.data) {
   price.innerText = "₹ " + i.price;
   container.appendChild(price);
   //purchase link
+  //let purchase = document.createElement("a");
+  //purchase.setAttribute("href", i.purchase);
+  //purchase.innerText = "BUY NOW" ;
+  //container.appendChild(purchase);
   let purchase = document.createElement("a");
   purchase.setAttribute("href", i.purchase);
-  purchase.innerText = "BUY NOW" ;
+  purchase.innerText = "" ;
+  let buynow = document.createElement("img");
+  buynow.setAttribute("src", "./h.png");
+  buynow.setAttribute("height", "70px");
+  buynow.setAttribute("width", "200px");
+  purchase.appendChild(buynow); 
   container.appendChild(purchase);
+
+  
 
   card.appendChild(container);
   document.getElementById("products").appendChild(card);
