@@ -4,37 +4,37 @@ let products = {
     {
         title : "BOAT AIRPODS PRO (BLACK)",
         category: "HEADPHONE",
-        price : "200",
+        price : "299",
         image : "static/01.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_PRO_(BLACK)_₹200",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_PRO_(BLACK)_₹299",
     },
     {
         title : "BOAT AIRPODS PRO (GREEN-WHITE)",
         category: "HEADPHONE",
-        price : "250",
+        price : "259",
         image : "static/02.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_PRO_(GREEN-WHITE)_₹250",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_PRO_(GREEN-WHITE)_₹259",
     },
     {
         title : "BOAT AIRPODS PRO (RED)",
         category: "HEADPHONE",
-        price : "300",
+        price : "399",
         image : "static/03.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_PRO_(RED)_₹300",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_PRO_(RED)_₹399",
     },
     {
         title : "BOAT AIRPODS PRO (GREEN)",
         category: "HEADPHONE",
-        price : "350",
+        price : "359",
         image : "static/04.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_PRO_(GREEN)_₹350",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_PRO_(GREEN)_₹359",
     },
     {
         title : "BOAT AIRPODS WIRELESS (BLUE)",
         category: "HEADPHONE",
-        price : "400",
+        price : "499",
         image : "static/05.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_WIRELESS_(BLUE)_₹400",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_BOAT_AIRPODS_WIRELESS_(BLUE)_₹499",
     },
     {
         title : "boAt New AirPods Pro",
@@ -107,95 +107,95 @@ let products = {
         purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
+        title : "VIVO 5G 4_128 ",
+        category: "SMARTPHONE",
+        price : "15,999",
         image : "static/16.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        purchase :  "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_VIVO_5G_4_128_₹15,999",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
+        title : "VIVO 5G 4_128",
+        category: "SMARTPHONE",
+        price : "15,999",
         image : "static/17.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        purchase :  "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_VIVO_5G_4_128_₹15,999",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
+        title : "VIVO 5G 4_128",
+        category: "SMARTPHONE",
+        price : "15,999",
         image : "static/18.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        purchase :  "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_VIVO_5G_4_128_₹15,999",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
+        title : "VIVO 5G 4_128",
+        category: "SMARTPHONE",
+        price : "15,999",
         image : "static/19.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        purchase :   "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_VIVO_5G_4_128_₹15,999",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
+        title : "VIVO 5G 4_128",
+        category: "SMARTPHONE",
+        price : "15,999",
         image : "static/20.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_VIVO_5G_4_128_₹15,999",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
-        image : "static/21.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        title : "APPLE IPHONE 14 ",
+        category: "SMARTPHONE",
+        price : "79,999",
+        image : "static/1.jpg",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_APPLE_IPHONE_14_₹79,999",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
-        image : "static/22.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        title : "APPLE IPHONE 14 ",
+        category: "SMARTPHONE",
+        price : "79,999",
+        image : "static/2.jpg",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_APPLE_IPHONE_14_₹79,999",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
-        image : "static/23.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        title : "APPLE IPHONE 14 ",
+        category: "SMARTPHONE",
+        price : "79,999",
+        image : "static/3.jpg",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_APPLE_IPHONE_14_₹79,999",
     },
     {
-        title : "boAt New AirPods Pro",
-        category: "HEADPHONE",
-        price : "346",
-        image : "static/24.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_sony_cx239",
+        title : "APPLE IPHONE 14 ",
+        category: "SMARTPHONE",
+        price : "79,999",
+        image : "static/4.jpg",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_APPLE_IPHONE_14_₹79,999",
     },
     {
         title : "JBL BLUETOOTH STEREO SOUND ",
         category: "SPEAKER",
-        price : "2000",
+        price : "2999",
         image : "static/25.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_JBL_BLUETOOTH_STEREO_SOUND_₹2000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_JBL_BLUETOOTH_STEREO_SOUND_₹2999",
     },
     {
         title : "JBL BLUETOOTH STEREO SOUND",
         category: "SPEAKER",
-        price : "2000",
+        price : "2999",
         image : "static/26.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_JBL_BLUETOOTH_STEREO_SOUND_₹2000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_JBL_BLUETOOTH_STEREO_SOUND_₹2999",
     },
     {
         title : "JBL BLUETOOTH STEREO SOUND",
         category: "SPEAKER",
-        price : "2000",
+        price : "2999",
         image : "static/27.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_JBL_BLUETOOTH_STEREO_SOUND_₹2000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_JBL_BLUETOOTH_STEREO_SOUND_₹2999",
     },
     {
         title : "JBL BLUETOOTH STEREO SOUND",
         category: "SPEAKER",
-        price : "2000",
+        price : "2999",
         image : "static/28.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_JBL_BLUETOOTH_STEREO_SOUND_₹2000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_JBL_BLUETOOTH_STEREO_SOUND_₹2999",
     },
     {
         title : "REDMI NOISE FIT WITH VDO CALL",
@@ -228,58 +228,58 @@ let products = {
     {
         title : "HP GAMING VICTUS",
         category: "LAPTOP",
-        price : "25,000",
+        price : "25,999",
         image : "static/33.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_HP_GAMING_VICTUS_₹25,000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_HP_GAMING_VICTUS_₹25,999",
     },
     {
         title : "HP GAMING VICTUS PRO",
         category: "LAPTOP",
-        price : "65,000",
+        price : "65,999",
         image : "static/34.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_HP_GAMING_VICTUS_PRO_₹65,000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_HP_GAMING_VICTUS_PRO_₹65,999",
     },
     {
         title : "HP GAMING VICTUS ROG",
         category: "LAPTOP",
-        price : "85,000",
+        price : "85,999",
         image : "static/35.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_HP_GAMING_VICTUS_ROG_₹85,000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_HP_GAMING_VICTUS_ROG_₹85,999",
     },
     {
         title : "DELL G15 I5 12 GEN",
         category: "LAPTOP",
-        price : "95,000",
+        price : "95,999",
         image : "static/36.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,999",
     },
     {
         title : "DELL G15 I5 12 GEN",
         category: "LAPTOP",
-        price : "95,000",
+        price : "95,999",
         image : "static/37.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,999",
     },
     {
         title : "DELL G15 I5 12 GEN",
         category: "LAPTOP",
-        price : "95,000",
+        price : "95,999",
         image : "static/38.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,999",
     },
     {
         title : "DELL G15 I5 12 GEN",
         category: "LAPTOP",
-        price : "95,000",
+        price : "95,999",
         image : "static/39.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,999",
     },
     {
         title : "DELL G15 I5 12 GEN",
         category: "LAPTOP",
-        price : "95,000",
+        price : "95,999",
         image : "static/40.webp",
-        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,000",
+        purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_DELL_G15_I5_12_GEN_₹95,999",
     },
     {
         title : "LENOVO IDEAPAD GAMING I5 11 GEN",
@@ -351,6 +351,7 @@ let products = {
         image : "static/50.webp",
         purchase : "https://api.whatsapp.com/send?phone=919679432975&text=i_want_to_buy_SAMSUNG_CRYSTAL_SMART_TIZEN_TV_₹39,999",
     },
+    
  
 
   ],
@@ -360,7 +361,7 @@ for (let i of products.data) {
   //Create Card
   let card = document.createElement("div");
   //Card should have category and should stay hidden initially
-  card.classList.add("card", i.category, "hide");
+  card.classList.add("card-local", i.category, "hide");
   //image div
   let imgContainer = document.createElement("div");
   imgContainer.classList.add("image-container");
@@ -380,12 +381,12 @@ for (let i of products.data) {
   title.innerText = i.title.toUpperCase();
   container.appendChild(title);
   // product category
-  let category = document.createElement("h6");
-  category.innerText = i.category.toUpperCase();
-  container.appendChild(category);
+  //let category = document.createElement("h6");
+  //category.innerText = i.category.toUpperCase();
+  //container.appendChild(category);
 
   //price
-  let price = document.createElement("h6");
+  let price = document.createElement("h2");
   price.innerText = "₹ " + i.price;
   container.appendChild(price);
   //purchase link
@@ -412,7 +413,7 @@ function filterProduct(value) {
   });
 
   //select all cards
-  let elements = document.querySelectorAll(".card");
+  let elements = document.querySelectorAll(".card-local");
   //loop through all cards
   elements.forEach((element) => {
     //display all cards on 'all' button click
@@ -437,7 +438,7 @@ document.getElementById("search").addEventListener("click", () => {
   let searchInput = document.getElementById("search-input").value;
   let elements = document.querySelectorAll(".product-title");
   
-  let cards = document.querySelectorAll(".card");
+  let cards = document.querySelectorAll(".card-local");
 
   //loop through all elements
   elements.forEach((element, index) => {

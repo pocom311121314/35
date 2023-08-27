@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DC-SHOP</title>
     <link rel="icon" href="f.png" />
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="search.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
   </head>
   <body>
-    
-    <div class="wrapper"> <div id="search-container">
-        <input type="search" id="search-input" placeholder="FIND YOUR FAVOURITE PRODUCTS"/>
-        <button id="search">Search</button>
-        <a class="button-back" href="/">⇦BACK</a>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href="/"><span class="glyphicon glyphicon-home"></span>DC-SHOP</a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-download-alt"></span>DOWNLOAD APP</a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-phone"></span>CONTACT US</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/"><span class="glyphicon glyphicon-cog"></span> </a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-user"></span> </a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-bell"></span> </a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-heart"></span> </a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-shopping-cart"></span> </a></li>
+        </ul>
+        <div class="navbar-form navbar-right" >
+          <div class="input-group">
+            <input type="search" id="search-input" class="form-control" placeholder="FIND YOUR PRODUCTS">
+            <div class="input-group-btn">
+              <button class="btn btn-default" id="search">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
+    </nav>
+    
+    <hr class="dashed">
+    <hr class="dashed">
+    
+    <img src="e.jpg" width="100%">
+    
+    <hr class="dashed">
+    <div class="wrapper">
       <div id="buttons">
         <button class="button-value" onclick="filterProduct('all')">All</button>
         <button class="button-value" onclick="filterProduct('SMARTPHONE')">SMARTPHONES</button>
@@ -24,11 +71,23 @@
         <button class="button-value" onclick="filterProduct('SPEAKER')">SPEAKERS</button>
         <button class="button-value" onclick="filterProduct('WATCH')">WATCHES</button>
         <button class="button-value" onclick="filterProduct('TV')">TVS</button>
-        
-        
+        <button class="button-value" onclick="filterProduct('FLASH')">FLASH-DEALS</button>
       </div>
+    </div>
+       <hr class="dashed">
+       <img src="f.jpg" width="100%">
+    
+    
+    <div class="wrapper">
       <div id="products"></div>
     </div>
+    
+    
+    <img src="a.webp" width="100%">
+    <hr class="dashed">
+    
+    <img src="d.jpg" width="100%">
+
     <!-- Script -->
     <script src="search.js"></script>
   </body>

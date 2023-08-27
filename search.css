@@ -4,85 +4,60 @@
   box-sizing: border-box;
   border: none;
   outline: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   background-color: #FFFFFF;
+}
+hr.dashed {
+  border-top: 1px dashed #ffffff;
 }
 .wrapper {
   width: 95%;
   margin: 0 auto;
 }
-#search-container {
-  margin: 1em 0;
-}
-#search-container input {
-  background-color: transparent;
-  width: 80%;
-  border-bottom: 2px solid #212121;
-  padding: 1em 0.3em;
-  
-  
-}
-#search-container input:focus {
-  border-bottom-color: #010008;
-}
-#search-container button {
-  padding: 1em 2em;
-  margin-left: 1em;
-  background-color: #E5E5E5;
-  color: #000000;
-  border-radius: 5px;
-  margin-top: 0.5em;
-  position: sticky ;
-  right: 140px;
-  
-}
+
+
 .button-value {
   border: 1px solid #010008;
   padding: 1em 2.2em;
   border-radius: 3em;
-  background-color: #E5E5E5;
+  background-color: #D2D2D2;
   color: #000000;
   cursor: pointer;
 }
-.button-back {
-  border: 1px solid #010008;
-  padding: 0.5em 1em;
-  border-radius: 6em;
-  background-color: #E5E5E5;
-  color: #000000;
-  cursor: pointer;
-  position: fixed ;
-  right: 30px;
-  top: 25px;
-}
+
 .active {
   background-color: #D2D2D2;
   color: #000000;
 }
 #products {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 1.5em;
+  grid-template-columns: auto auto auto auto auto ;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
   padding: 2em 0;
+  
 }
-.card {
-  background-color: #d2d2d2;
-  max-width: 18em;
-  margin-top: 1em;
-  padding: 1em;
-  border-radius: 5px;
-  box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+.card-local {
+    max-width: 210px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d2d2d2;
 }
 .image-container {
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-img {
+.image-container img {
   max-width: 100%;
-  object-fit: contain;
-  height: 15em;
+    object-fit: contain;
+    height: 10em;
 }
+
 .container {
   padding-top: 1em;
   color: #110f29;
@@ -94,12 +69,12 @@ img {
   display: none;
 }
 @media screen and (max-width: 720px) {
-  img {
+  .image-container img {
     max-width: 100%;
     object-fit: contain;
     height: 10em;
   }
-  .card {
+  .card-local {
     max-width: 10em;
     margin-top: 1em;
   }
@@ -108,3 +83,5 @@ img {
     grid-column-gap: 1em;
   }
 }
+
+

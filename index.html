@@ -23,9 +23,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -36,60 +37,36 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="headerLeft">
-        <div class="logoContainer">
-          <img src="a.png" width="200" height="70" />
-        </div>
-
-        <!--seach box-->
-        <div class="searchInputContainer">
-          <div class="searchIcon">
-            <img src="d.png" />
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        
+        <ul class="nav navbar-nav">
+          <li><a href="/"><span class="glyphicon glyphicon-home"></span>DC-SHOP</a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-download-alt"></span>DOWNLOAD APP</a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-phone"></span>CONTACT US</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/"><span class="glyphicon glyphicon-cog"></span> </a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-user"></span> </a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-bell"></span> </a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-heart"></span> </a></li>
+          <li><a href="/"><span class="glyphicon glyphicon-shopping-cart"></span> </a></li>
+        </ul>
+        <form class="navbar-form navbar-right" action="/search.html" >
+          <div class="input-group">
+            
+            <div class="input-group-btn">
+              <button class="btn btn-default" id="search">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
           </div>
-          <form action="" id="inputForm">
-            <input type="text"placeholder="FIND YOUR FAVOURITE PRODUCTS"class="inputSearch"/>
-          </form>
-            <a href="search.html"><button>Search</button></a>
-        </div>    
+        </form>
         
       </div>
+    </nav>
 
-      <div class="headerRight">
-        <div class="downloadContainer">
-          <div class="mobileIcon">
-            <img src="c.png/" />
-            
-          </div>
-          <p>DOWNLOAD</p>
-
-          
-          </div>
-        </div>
-
-      
-        <div class="becomeSupplierContainer">
-          <h4>CONTACT US</h4>
-      </div>
-
-        <div class="profileAndCart">
-          <div class="profileContainer">
-            <div class="profileIcon">
-              <img src="e.png" />
-            </div>
-            <p>PROFILE</p>
-          </div>
-
-          <div class="CartContainer">
-            <div class="CartIcon">
-              <img src="b.png" />
-            </div>
-            <p>CART</p>
-          </div>
-        </div>
-      </div>
-    </header>
-    
+    <hr class="dashed">
     <hr class="dashed">
     <!-- carousel slide -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -150,9 +127,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <!--divider-->
-    
-     <hr class="dashed">
+  
     <!--lowest prices-->
     <div class="lowestpriceContainer">
       <div class="lowestPrice_text">
@@ -193,7 +168,7 @@
       </div>
       <div class="lowestPrice_image">
         <img
-          src="a.jpg"
+          src="a.jpg" width="100%"
         />
       </div>
     </div>
@@ -248,32 +223,32 @@
     </div>
     <!--divider-->
     <hr class="dashed">
-     <img class="img-responsive" src="o.avif">
+     <img width="100%" src="o.avif">
      <!--divider-->
     <hr class="dashed">
-     <img src="p.avif"  class="img-responsive">
+     <img src="p.avif"  width="100%">
      <!--divider-->
     <hr class="dashed">
-    <img src="q.avif"  class="img-responsive">
+    <img src="q.avif"  width="100%">
     <!--divider-->
     <hr class="dashed">
-    <img src="b.jpg"  class="img-responsive">
+    <img src="b.jpg"  width="100%">
     <!--divider-->
     <hr class="dashed">
-    <img src="c.jpg"  class="img-responsive">
-     <!--divider-->
-    <hr class="dashed">
+    <img src="c.jpg"  width="100%">
+     
+    
     <!--Products For You-->
-    <div class="Product_container_You">
-      <h1></h1>
-      <div class="product_container_you_content">
-        
-        <main class="product_category_display" id="product_category_displayId">
-          <--render product--->
-        </main>
+    <div class="wrapper">
+      <div class="Product_container_You">
+        <div class="product_container_you_content">
+          <main class="product_category_display" id="product_category_displayId"><!--render product---></main>
+        </div>
       </div>
     </div>
 
+     <img width="100%" src="d.jpg">
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>

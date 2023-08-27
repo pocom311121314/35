@@ -60,8 +60,8 @@ function renderProductData(){
                 <div class="product_image">
                   <a href= ${el.purchase} ><img src="./${el.image}" style="width:200px;height:180px;" ></a>
                 </div>
-                <h3 class="product_name">${el.title}</h3>
-                <h4 class="product_name">${el.category}</h4>
+                <h5 class="product_name">${el.title}</h5>
+                
                 <p class="product_price"><span>₹</span><span>${el.price}</span></p>
                 <a href= ${el.purchase} ><img src="./h.png" style="width:200px;height:70px;" ></a>
                 
