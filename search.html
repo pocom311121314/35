@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DC-SHOP</title>
-    <link rel="icon" href="f.png" />
-    <link rel="stylesheet" href="search.css" />
+    <link rel="icon" href="/static/image/index-01.png" />
+    <link rel="stylesheet" href="/static/css/search.css" />
     
    <!-- Google Font -->
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-   
     <div class="topnav">
       <a class="active" href="/"><i class="fa fa-home"></i> DC-SHOP</a>
       <a href="/"><i class="fa fa-users"></i> SELL</a>
@@ -30,63 +29,29 @@
       </div>
       <div class="search-container">
           <input type="text" id="search-input" placeholder="search various products...." >
-          
-      </div>
-      
-    </div>
-    
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <img src="e.jpg" width="100%">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <div class="wrapper">
-      <div id="buttons">
-        <button class="button-value" onclick="filterProduct('all')">All</button>
-        <button class="button-value" onclick="filterProduct('smartphone')">SMARTPHONES</button>
-        <button class="button-value" onclick="filterProduct('headphone')">HEADPHONES</button>
-        <button class="button-value" onclick="filterProduct('laptop')">LAPTOPS</button>
-        <button class="button-value" onclick="filterProduct('speaker')">SPEAKERS</button>
-        <button class="button-value" onclick="filterProduct('watch')">WATCHES</button>
-        <button class="button-value" onclick="filterProduct('tv')">TVS</button>
-        
       </div>
     </div>
-       <hr class="dashed">
-       <hr class="dashed">
-       <hr class="dashed">
-       <hr class="dashed">
-       <img src="f.jpg" width="100%">
-    
-    
-    <div class="wrapper">
-      <div class="Product_container_You">
-        <div class="product_container_you_content">
-          <main class="product_category_display" id="products"><!--render product---></main>
+    <div class="carousel-a">
+      <img src="/static/image/index-13.avif"  width="100%">
+      <img src="/static/image/search-01.jpg" width="100%">
+      <div class="button1-container">
+        <div id="buttons">
+          <button class="button-value" onclick="filterProduct('all')">All</button>
+          <button class="button-value" onclick="filterProduct('smartphone')">SMARTPHONES</button>
+          <button class="button-value" onclick="filterProduct('headphone')">HEADPHONES</button>
+          <button class="button-value" onclick="filterProduct('laptop')">LAPTOPS</button>
+          <button class="button-value" onclick="filterProduct('speaker')">SPEAKERS</button>
+          <button class="button-value" onclick="filterProduct('watch')">WATCHES</button>
+          <button class="button-value" onclick="filterProduct('tv')">TVS</button>
         </div>
       </div>
-      
     </div>
-    
-    
-    <img src="a.webp" width="100%">
-    <hr class="dashed">
-    
-    <img src="d.jpg" width="100%">
-
-    <!-- Script -->
-    <script src="search.js"></script>
+       <hr class="dashed">
+       <img src="/static/image/search-02.jpg" width="100%">
+       <main id="card-matrix"><!--render product---></main>
+       <img src="/static/image/search-03.webp" width="100%">
+       <hr class="dashed">
+       <img src="/static/image/index-12.jpg" width="100%">
+       <script src="/static/javascript/data.js"></script>
   </body>
 </html>

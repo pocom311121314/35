@@ -12,12 +12,6 @@ body {
 hr.dashed {
   border-top: 5px dashed #ffffff;
 }
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-}
-
-
 .button-value {
   border: 1px solid #010008;
   padding: 1em 2.2em;
@@ -26,26 +20,17 @@ hr.dashed {
   color: #000000;
   cursor: pointer;
 }
-
 .active {
   background-color: #D2D2D2;
   color: #000000;
 }
-.Product_container_You{
-  min-height: 500px;
-  /* background-color: #ccc; */
-}
-#products {
+#card-matrix {
   display: grid;
   grid-template-columns: auto auto auto auto auto ;
   grid-column-gap: 0.5em;
   grid-row-gap: 1.5em;
   padding: 2em 0;
   justify-content: center;
-}
-.product-title {
-  word-wrap: break-word;
-
 }
 .card-local {
     max-width: 210px;
@@ -65,26 +50,19 @@ hr.dashed {
     object-fit: contain;
     height: 10em;
 }
-
 .container {
   padding-top: 1em;
   color: #110f29;
 }
-.container h5 {
-  font-weight: 500;
-}
 .hide {
   display: none;
 }
-
-
 .topnav {
   overflow: hidden;
   background-color: #131A22;
   position: fixed;
   width: 100%;
 }
-
 .topnav a {
   float: left;
   display: block;
@@ -94,22 +72,17 @@ hr.dashed {
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #ffffff;
   color: black;
 }
-
 .topnav a.active {
   background-color: #D2D2D2;
   color: rgb(0, 0, 0);
 }
-
 .topnav .search-container {
   float: right;
-  
 }
-
 .topnav input[type=text] {
   padding: 6px;
   margin-top: 12px;
@@ -118,7 +91,6 @@ hr.dashed {
   border: none;
   width: 150px;
 }
-
 .topnav .search-container button {
   float: right;
   padding: 6px 10px;
@@ -129,14 +101,23 @@ hr.dashed {
   border: none;
   cursor: pointer;
 }
-
 .topnav .search-container button:hover {
   background: #ffffff;
 }
-
-
 .topnav .right-nav  {
   float: right;
-  
 }
-
+.button1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carousel-a {
+  padding-top: 50px;
+}
+@media screen and (max-width: 720px) {
+  #card-matrix {
+    grid-template-columns: auto auto;
+  }
+}

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DC-SHOP</title>
     <!--fevicon icon-->
-    <link rel="icon" href="f.png" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="/static/image/index-01.png" />
+    <link rel="stylesheet" href="/static/css/index.css" />
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -28,86 +28,43 @@
         <a href="/"><i class="fa fa-shopping-cart"></i></a>
       </div>
       
+    </div> 
+    
+    <div class="carousel-a">
+      <img src="/static/image/index-13.avif"  width="100%">
+      <iframe src="carousel-a.html" width="100%" height="230px">  </iframe>
+      <img src="/static/image/index-14.jpg"  width="100%">
     </div>
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <hr class="dashed">
-    <div class="carousel-a"><iframe src="carousel-a.html" width="100%" height="230px">  </iframe></div>
-
-    
-    
-    <!--lowest prices-->
-    <div class="lowestpriceContainer">
-      <div class="lowestPrice_text">
-        <h2>LATEST PRODUCTS at</h2>
-        <h1>AMAZING PRICE</h1>
-        <div class="lowestPriceWhay">
-          <div class="lowestPriceItem">
-            <div class="lowestPrice_icon">
-              <img
-                src="a.svg"
-              />
-            </div>
-            <p>FAST DELIVERY</p>
-          </div>
-
-          <div class="lowestPriceItem">
-            <div class="lowestPrice_icon">
-              <img src="b.svg" />
-            </div>
-            <p>COD</p>
-          </div>
-          <div class="lowestPriceItem">
-            <div class="lowestPrice_icon">
-              <img src="c.svg" />
-            </div>
-            <p>7 DAYS REPLACEMENT</p>
-          </div>
-        </div>
-
-        <div ><h4>DOWNLOAD OUR APP</h4><a href="/"> <img src="g.png" width="180" height="50"/></a></div>
-      </div>
-      <div class="lowestPrice_image">
-        <img
-          src="a.jpg" width="100%"
-        />
-      </div>
-    </div>
-
-    <!--Top Categories to choose from-->
-    
+   
     <!--divider-->
-    
     <hr class="dashed">
     <iframe src="carousel-b.html" width="100%" height="230px"> </iframe>
-
-    
     <!--divider-->
     <hr class="dashed">
-     <img width="100%" src="o.avif">
+     <img width="100%" src="/static/image/index-07.avif">
      <!--divider-->
     <hr class="dashed">
-     <img src="p.avif"  width="100%">
+     <img src="/static/image/index-08.avif"  width="100%">
      <!--divider-->
     <hr class="dashed">
-    <img src="q.avif"  width="100%">
+    <img src="/static/image/index-09.avif"  width="100%">
     <!--divider-->
     <hr class="dashed">
-    <img src="b.jpg"  width="100%">
+    <img src="/static/image/index-10.jpg"  width="100%">
     <!--divider-->
     <hr class="dashed">
-    <img src="c.jpg"  width="100%">
+    <img src="/static/image/index-11.jpg"  width="100%">
     
     <!--Products For You-->
-    <main class="product_category_display" id="product_category_displayId"><!--render product---></main>
+    <main id="card-matrix"><!--render product---></main>
+    <img width="100%" src="/static/image/index-12.jpg">
+    <script src="/static/javascript/data.js"></script>
+    <script>
+      window.onload = () => {
+      filterProduct("all");
+    };
 
-    <img width="100%" src="d.jpg">
-
-    <script src="index.js" type="module"></script>
+    </script>
+    
   </body>
 </html>
