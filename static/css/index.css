@@ -126,12 +126,12 @@ hr.dashed {
   .topnav .right-nav {
     display: none;
   }
-  .carousel {
+  .carousel iframe {
     width: 100%;
     height: 95px;
   }
 }
-.carousel {
+.carousel iframe {
   width: 100%;
   height: 230px;
 }
