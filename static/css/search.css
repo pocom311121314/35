@@ -120,4 +120,13 @@ hr.dashed {
   #card-matrix {
     grid-template-columns: auto auto;
   }
+  .topnav .left-nav  {
+    display: none;
+    
+  }
+  .topnav .right-nav {
+    display: none;
+    
+  }
+  
 }
