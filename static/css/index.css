@@ -118,7 +118,7 @@ hr.dashed {
     grid-template-columns: auto auto;
   }
   .card-local {
-    max-width: 150px;
+    max-width: 180px;
  }
   .topnav .left-nav  {
     display: none;
