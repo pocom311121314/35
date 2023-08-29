@@ -127,11 +127,7 @@ hr.dashed {
     display: none;
   }
   .carousel iframe {
-    width: 100%;
+    
     height: 95px;
   }
-}
-.carousel iframe {
-  width: 100%;
-  height: 230px;
 }
